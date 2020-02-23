@@ -57,7 +57,7 @@ def flip(data, vh):
 #minecraft:red_banner{BlockEntityTag:{Patterns:[{Pattern:ss,Color:0},{Pattern:bl,Color:11}]}}
 flag = input('Flag F3+I data: ')
 pole = input('Flag pole top F3+I data: ')
-args = casefold(input('Options ([n,e,s,w,nww,se...], [c,a,ca], [l,r], [u,d]): ')).split()
+args = input('Options ([n,e,s,w,nww,se...], [c,a,ca], [l,r], [u,d]): ').lower().split()
 rot = 90
 side = 'ca'
 fpv = 'l'
