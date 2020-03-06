@@ -29,6 +29,6 @@ Allows to generate horizontal flags in Minecraft using a normal banner
     - If particular type of setting appears more than once, the last appearance wins
     - Invalid settings are ignored
     - Default settings: **'n ca l u'**
-4: Use all (two with 'c' or 'a' setting, four with 'ca' setting) generated commands in given sequence. Remember to have the pole's chunk generated while using the commands.
+4: Use all (two with 'c' or 'a' setting, four with 'ca' setting) generated commands in given sequence. Remember to have the pole's chunk generated while using the commands. WARNING: Minecraft may not accept commands over 256 characters. In that situation you will have to use a commandblock.
 
 _If you need to remove a flag (or an empty armorstand that has been summoned by a mistake) stand right next to it and type **/kill @e[type=armor_stand,distance=..1.5,limit=2]**. Be extremely careful, as you can kill every single entity in the world if you forget about 'type', 'distance' or 'limit' settings. If there are more than two armorstands in that place, you can increase the limit or repeat the command._
