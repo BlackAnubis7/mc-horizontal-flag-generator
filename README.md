@@ -13,7 +13,9 @@ Allows to generate horizontal flags in Minecraft using a normal banner
 ------------------------------------------------------------------------------------------------------------------------
 
 ## HOW TO USE:
-1. In Minecraft point to the _banner_ (standalone or on a wall) and press **F3+I**. Paste into the program
+1. Choose a banner design using any of these methods:
+    - In Minecraft point to the _banner_ (standalone or on a wall) and press **F3+I**. Paste the new clipboard into the program. 
+    - **EXPERIMENTAL:** You may just type a two letter code of a country (ISO 3166-1 alpha-2 standard). Data is stored in 'countries_dict.py' file. Some territories are not yet made.
 2. In Minecraft point to the _wooden fence_ block to which the flag is going to be attached and press **F3+I**. Paste into the program
 3. Additional settings (one line, separated by spaces, in any sequence):
     - **n, e, s, w, ne, sw, see, nnw...** - flag facing direction
@@ -26,4 +28,6 @@ Allows to generate horizontal flags in Minecraft using a normal banner
     - If particular type of setting appears more than once, the last appearance wins
     - Invalid settings are ignored
     - Default settings: **'n ca l u'**
-4: Use all (two with 'c' or 'a' setting, four with 'ca' setting) generated commands in given sequence
+4: Use all (two with 'c' or 'a' setting, four with 'ca' setting) generated commands in given sequence. Remember to have the pole's chunk generated while using the commands.
+
+_If you need to remove a flag (or an empty armorstand that has been summoned by a mistake) stand right next to it and type **/kill @e[type=armor_stand,distance=..1.5,limit=2]**. Be extremely careful, as you can kill every single entity in the world if you forget about 'type', 'distance' or 'limit' settings. If there are more than two armorstands in that place, you can increase the limit or repeat the command._
