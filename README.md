@@ -5,6 +5,7 @@ Allows to generate horizontal flags in Minecraft using a normal banner
 
 ## Details:
 - Works for Minecraft **1.13** and higher
+- The main file is _hfg.py_
 - For now it looks best on a pole made of wooden fences
 - The flag consists of two invisible armor stands with tilted heads, wearing the banner as a hat
 - The flag has two segments - in the front and in the back
@@ -15,7 +16,7 @@ Allows to generate horizontal flags in Minecraft using a normal banner
 ## HOW TO USE:
 1. Choose a banner design using any of these methods:
     - In Minecraft point to the _banner_ (standalone or on a wall) and press **F3+I**. Paste the new clipboard into the program. 
-    - EXPERIMENTAL: You may just type a two letter code of a country (ISO 3166-1 alpha-2 standard). Data is stored in 'countries_dict.py' file. **The file has to be in the same directory as the hfg.py** Some territories are not yet made.
+    - EXPERIMENTAL: You may just type a two letter code of a country (ISO 3166-1 alpha-2 standard). Data is stored in 'countries_dict.py' file. **The file has to be in the same directory as the hfg.py**. Some territories are not yet available.
 2. In Minecraft point to the _wooden fence_ block to which the flag is going to be attached and press **F3+I**. Paste into the program
 3. Additional settings (one line, separated by spaces, in any sequence):
     - **n, e, s, w, ne, sw, see, nnw...** - flag facing direction
