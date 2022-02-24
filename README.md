@@ -1,11 +1,11 @@
 # mc-horizontal-flag-generator
-Allows to generate horizontal flags in Minecraft using a normal banner
+Allows to generate horizontal flags in Minecraft Java Edition using a normal banner
 
 ------------------------------------------------------------------------------------------------------------------------
 
 ## Details:
 - Works for Minecraft **1.13** and higher
-- The main file is _hfg.py_
+- **The main file is *hfg-1.17.py*** (if your Minecraft version is older than 1.17, use *hfg.py*)
 - For now it looks best on a pole made of wooden fences
 - The flag consists of two invisible armor stands with tilted heads, wearing the banner as a hat
 - The flag has two segments - in the front and in the back
